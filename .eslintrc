@@ -1,0 +1,16 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "comma-dangle": ["error", "never"],
+    "class-methods-use-this": "off",
+    "no-constant-condition": "off",
+    "no-restricted-syntax": [
+      "error",
+      "ForInStatement",
+      "LabeledStatement",
+      "WithStatement"
+    ],
+    "no-await-in-loop": "off",
+    "no-empty-function": "off"
+  }
+}

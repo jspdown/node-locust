@@ -1,0 +1,31 @@
+{
+  "name": "locust-node",
+  "version": "0.1.0",
+  "description": "",
+  "engines": {
+    "node": ">=8.6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "chance": "^1.0.16",
+    "extendable-error": "^0.1.5",
+    "minimist": "^1.2.0",
+    "msgpack-lite": "^0.1.26",
+    "uuid": "^3.2.1",
+    "zeromq": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
