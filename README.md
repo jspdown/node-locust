@@ -70,7 +70,7 @@ class MyLocust extends Locust {
   constructor() {
     super();
 
-    this.taskSet = new MyTaskSet();
+    this.taskSet = new UserTasks();
   }
 }
 
